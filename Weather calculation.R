@@ -5,7 +5,7 @@ library(data.table)
 library(epitools)
 library(lubridate)
 
-setwd("C:/AAFC/Project 1_MCF/3_results/Weather data/SLC_Weather_WRH")
+setwd("3_results/Weather data/SLC_Weather_WRH")
 site.name<-list.files(pattern="*.txt",recursive=TRUE)
 #print(object.size(a),units="Mb")
 
